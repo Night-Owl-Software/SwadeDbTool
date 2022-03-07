@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\net5.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NOSDBLib">
+      <HintPath>..\NOSDBLib\bin\Debug\net6.0\NOSDBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SWADELib">
+      <HintPath>..\Night-Owl-Software\SWADELib\SWADELib\bin\Debug\net6.0\SWADELib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
